@@ -12,6 +12,16 @@
 		D51A09261C11157300C112FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A09241C11157300C112FD /* Main.storyboard */; };
 		D51A09281C11157300C112FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51A09271C11157300C112FD /* Assets.xcassets */; };
 		D51A092B1C11157300C112FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A09291C11157300C112FD /* LaunchScreen.storyboard */; };
+		D51A094E1C111E8000C112FD /* beer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D51A09451C111E8000C112FD /* beer.jpeg */; };
+		D51A094F1C111E8000C112FD /* cocktail.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D51A09461C111E8000C112FD /* cocktail.jpeg */; };
+		D51A09501C111E8000C112FD /* drunk.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D51A09471C111E8000C112FD /* drunk.jpeg */; };
+		D51A09511C111E8000C112FD /* Flaming_Cocktails.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D51A09481C111E8000C112FD /* Flaming_Cocktails.jpeg */; };
+		D51A09521C111E8000C112FD /* flaming120.png in Resources */ = {isa = PBXBuildFile; fileRef = D51A09491C111E8000C112FD /* flaming120.png */; };
+		D51A09531C111E8000C112FD /* flaming180.png in Resources */ = {isa = PBXBuildFile; fileRef = D51A094A1C111E8000C112FD /* flaming180.png */; };
+		D51A09541C111E8000C112FD /* flamingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D51A094B1C111E8000C112FD /* flamingIcon.png */; };
+		D51A09551C111E8000C112FD /* garcon.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D51A094C1C111E8000C112FD /* garcon.aiff */; };
+		D51A09561C111E8000C112FD /* wine.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D51A094D1C111E8000C112FD /* wine.jpeg */; };
+		D51A09581C11202700C112FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A09571C11202700C112FD /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		D51A09271C11157300C112FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D51A092A1C11157300C112FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D51A092C1C11157300C112FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51A09451C111E8000C112FD /* beer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer.jpeg; sourceTree = "<group>"; };
+		D51A09461C111E8000C112FD /* cocktail.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cocktail.jpeg; sourceTree = "<group>"; };
+		D51A09471C111E8000C112FD /* drunk.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drunk.jpeg; sourceTree = "<group>"; };
+		D51A09481C111E8000C112FD /* Flaming_Cocktails.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flaming_Cocktails.jpeg; sourceTree = "<group>"; };
+		D51A09491C111E8000C112FD /* flaming120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flaming120.png; sourceTree = "<group>"; };
+		D51A094A1C111E8000C112FD /* flaming180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flaming180.png; sourceTree = "<group>"; };
+		D51A094B1C111E8000C112FD /* flamingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamingIcon.png; sourceTree = "<group>"; };
+		D51A094C1C111E8000C112FD /* garcon.aiff */ = {isa = PBXFileReference; explicitFileType = audio.aiff; path = garcon.aiff; sourceTree = "<group>"; };
+		D51A094D1C111E8000C112FD /* wine.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wine.jpeg; sourceTree = "<group>"; };
+		D51A09571C11202700C112FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51A09581C11202700C112FD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +59,7 @@
 		D51A09141C11157300C112FD = {
 			isa = PBXGroup;
 			children = (
+				D51A09571C11202700C112FD /* AVFoundation.framework */,
 				D51A091F1C11157300C112FD /* Sundowner */,
 				D51A091E1C11157300C112FD /* Products */,
 			);
@@ -54,6 +76,7 @@
 		D51A091F1C11157300C112FD /* Sundowner */ = {
 			isa = PBXGroup;
 			children = (
+				D51A09441C111E3900C112FD /* Supporting files */,
 				D51A09201C11157300C112FD /* AppDelegate.swift */,
 				D51A09221C11157300C112FD /* ViewController.swift */,
 				D51A09241C11157300C112FD /* Main.storyboard */,
@@ -62,6 +85,22 @@
 				D51A092C1C11157300C112FD /* Info.plist */,
 			);
 			path = Sundowner;
+			sourceTree = "<group>";
+		};
+		D51A09441C111E3900C112FD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				D51A09451C111E8000C112FD /* beer.jpeg */,
+				D51A09461C111E8000C112FD /* cocktail.jpeg */,
+				D51A09471C111E8000C112FD /* drunk.jpeg */,
+				D51A09481C111E8000C112FD /* Flaming_Cocktails.jpeg */,
+				D51A09491C111E8000C112FD /* flaming120.png */,
+				D51A094A1C111E8000C112FD /* flaming180.png */,
+				D51A094B1C111E8000C112FD /* flamingIcon.png */,
+				D51A094C1C111E8000C112FD /* garcon.aiff */,
+				D51A094D1C111E8000C112FD /* wine.jpeg */,
+			);
+			name = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +163,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D51A092B1C11157300C112FD /* LaunchScreen.storyboard in Resources */,
+				D51A094F1C111E8000C112FD /* cocktail.jpeg in Resources */,
+				D51A09521C111E8000C112FD /* flaming120.png in Resources */,
+				D51A09511C111E8000C112FD /* Flaming_Cocktails.jpeg in Resources */,
+				D51A09561C111E8000C112FD /* wine.jpeg in Resources */,
 				D51A09281C11157300C112FD /* Assets.xcassets in Resources */,
+				D51A09531C111E8000C112FD /* flaming180.png in Resources */,
 				D51A09261C11157300C112FD /* Main.storyboard in Resources */,
+				D51A09541C111E8000C112FD /* flamingIcon.png in Resources */,
+				D51A09501C111E8000C112FD /* drunk.jpeg in Resources */,
+				D51A094E1C111E8000C112FD /* beer.jpeg in Resources */,
+				D51A09551C111E8000C112FD /* garcon.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
